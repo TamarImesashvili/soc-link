@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    display: flex;
+}
+form {
+    width: 380px;
+    height: 615px;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #333333;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.but1 {
+    margin-top: 30px;
+}
+.but1, .but2, .but3, .but4, .but5 {
+    width: 300px;
+    height: 40px;
+    color: hsl(0, 0%, 100%);
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    font-family: "inter";
+}
+.attribution {
+    color: azure;
+}
+.but1:hover, .but2:hover, .but3:hover, .but4:hover, .but5:hover {
+    background-color: #B1DE3B;
+    color: #1F1F1F;
+    font-family: "inter";
+}
+body {
+    width: 1440px;
+    height: 100%;
+    text-align: center;
+    background-color: #141414;
+    margin-top: 80px;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "inter";
+    padding-top: 40px;
+
+}
+
+h4 {
+    color: #B1DE3B;
+    font-family: "inter";
+    padding-top: 20px;
+
+}
+p {
+    color: white;
+    font-size: 11px;
+    font-family: "inter";
+    padding-top: 30px;
+}
+@font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@media screen and (max-width: 375px) {
+    form {
+            margin: auto;
+        }
+    .attribution {
+        display: none !important;
+    }
+    }
+    .but1, .but2, .but3, .but4, .but5 {
+        width: 300px;
+        height: 40px;
+        color: hsl(0, 0%, 100%);
+        background-color: #333333;
+        border: none;
+        border-radius: 5px;        
+    }
+
+
+.attribution { font-size: 11px; text-align: center;  margin-top: 700px;}
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -2,15 +2,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    margin: auto;
+.tip {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
 form {
     width: 380px;
     height: 615px;
     background-color: #1F1F1F;
     border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
 }
 
 img {
@@ -19,6 +23,7 @@ img {
     border: 1px solid #333333;
     border-radius: 50px;
     margin-top: 20px;
+    
 }
 .but1 {
     margin-top: 30px;
@@ -41,17 +46,14 @@ img {
     font-family: "inter";
 }
 body {
-    width: 1440px;
-    height: 100%;
     text-align: center;
     background-color: #141414;
-    margin-top: 80px;
+    display: flex;
 }
 h1 {
     color: hsl(0, 0%, 100%);
     font-family: "inter";
     padding-top: 40px;
-
 }
 
 h4 {
@@ -75,9 +77,6 @@ p {
     form {
             margin: auto;
         }
-    .attribution {
-        display: none !important;
-    }
     }
     .but1, .but2, .but3, .but4, .but5 {
         width: 300px;
@@ -85,9 +84,9 @@ p {
         color: hsl(0, 0%, 100%);
         background-color: #333333;
         border: none;
-        border-radius: 5px;        
+        border-radius: 5px;   
     }
 
 
-.attribution { font-size: 11px; text-align: center;  margin-top: 700px;}
+.attribution { font-size: 11px; text-align: center;  margin-top: 200px;}
 .attribution a { color: hsl(228, 45%, 44%); }
